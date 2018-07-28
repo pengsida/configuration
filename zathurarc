@@ -1,0 +1,7 @@
+map <C-Esc> quit
+unmap q
+set window-height 3000
+set window-width 3000
+map d scroll half-down
+map u scroll half-up
+map <Space> focus_inputbar /
