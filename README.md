@@ -6,4 +6,5 @@ Configuration list:
 2. [vim](https://github.com/wwtalwtaw/.vim/)
 3. [cloudcompare](./install_cc.sh)
 4. [zathura](./zathurarc)
+5. [tmux](./.tmux.conf)
 
