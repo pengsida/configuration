@@ -7,4 +7,5 @@ Configuration list:
 3. [cloudcompare](./install_cc.sh)
 4. [zathura](./zathurarc)
 5. [tmux](./.tmux.conf)
+6. [python functions that I use frequently](./my_pyfun)
 
