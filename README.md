@@ -8,4 +8,8 @@ Configuration list:
 4. [zathura](./zathurarc)
 5. [tmux](./.tmux.conf)
 6. [python functions that I use frequently](./my_pyfun)
+7. [shadowsocks](./install_ss.sh)
+8. faster shadowsocks using kcptun: a recommended tool under ipv6 environment
+    * [server side](./fast_server.sh)
+    * [client side](./fast_client.sh)
 
