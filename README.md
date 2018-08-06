@@ -12,4 +12,5 @@ Configuration list:
 8. faster shadowsocks using kcptun: strongly recommend if you are under ipv6 environment
     * [server side](./fast_server.sh)
     * [client side](./fast_client.sh)
+9. [terminal css](./gtk.css)
 
