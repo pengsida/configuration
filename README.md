@@ -13,4 +13,5 @@ Configuration list:
     * [server side](./fast_server.sh)
     * [client side](./fast_client.sh)
 9. [terminal css](./gtk.css)
+10. [zshrc](./.zshrc)
 
