@@ -101,3 +101,6 @@ export PATH="$PATH:/home/pengsida/Software/go/bin:/home/pengsida/Software/blende
 . /usr/share/autojump/autojump.sh
 stty -ixon
 alias connect_sida="ssh 'pengsida@10.76.2.100'"
+export PATH="/home/pengsida/Software/anaconda3/bin:$PATH"
+alias open="nohup xdg-open . > /dev/null &"
+
