@@ -14,4 +14,6 @@ Configuration list:
     * [client side](./fast_client.sh)
 9. [terminal css](./gtk.css)
 10. [zshrc](./.zshrc)
+12. [git mergetool](./git_meld.sh)
+13. [gitignore](./.gitignore)
 

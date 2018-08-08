@@ -1,7 +1,0 @@
-setup.py
-my_pyfun/__init__.py
-my_pyfun/utils.py
-my_pyfun.egg-info/PKG-INFO
-my_pyfun.egg-info/SOURCES.txt
-my_pyfun.egg-info/dependency_links.txt
-my_pyfun.egg-info/top_level.txt
