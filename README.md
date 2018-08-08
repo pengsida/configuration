@@ -16,4 +16,8 @@ Configuration list:
 10. [zshrc](./.zshrc)
 12. [git mergetool](./git_meld.sh)
 13. [gitignore](./.gitignore)
+14. a screenshot tool: scrot. Mostly used commands are like the following:
+    ```
+    scrot -s file_name
+    ```
 
