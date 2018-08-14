@@ -20,5 +20,5 @@ Configuration list:
     ```
     scrot -s file_name
     ```
-15. [gitconfig](./gitconfig)
+15. [gitconfig](./.gitconfig)
 
