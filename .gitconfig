@@ -1,0 +1,11 @@
+[user]
+	name = pengsida
+	email = pengsida@zju.edu.cn
+[credential]
+	helper = store
+[https]
+	proxy = http://localhost:8118
+[http]
+	proxy = http://localhost:8118
+[merge]
+	tool = meld
