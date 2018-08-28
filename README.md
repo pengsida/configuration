@@ -22,4 +22,5 @@ Configuration list:
     ```
 15. [gitconfig](./.gitconfig)
 16. [smartgit](./install_sg.sh)
+17. [shadowsocks transmit](./haproxy.cfg)
 
