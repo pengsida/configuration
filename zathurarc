@@ -30,19 +30,19 @@ set index-active-fg             "#eee8d5" # base2
 set inputbar-bg                 "#586e75" # base01
 set inputbar-fg                 "#eee8d5" # base2
 
-set statusbar-bg                "#292929" # base02
+set statusbar-bg                "#2C2C2C" # base02
 set statusbar-fg                "#93a1a1" # base1
 
 set highlight-color             "#657b83" # base00  # hightlight match when search keyword(vim's /)
 set highlight-active-color      "#268bd2" # blue
 
-set default-bg                  "#292929" # base02
+set default-bg                  "#2C2C2C" # base02
 set default-fg                  "#93a1a1" # base1
 
 # Recolor book content's color
 set recolor                     true
-set recolor-lightcolor          "#073642" # base02
-set recolor-darkcolor           "#DFDBCC" # base1
+set recolor-lightcolor          "#282C34" # base02
+set recolor-darkcolor           "#DBDBDB" # base1
 set recolor-reverse-video true
 set recolor-keephue             true      # keep original color
 
