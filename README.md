@@ -27,3 +27,12 @@ Configuration list:
     g++ -std=c++11 `pkg-config --cflags opencv` `pkg-config --libs opencv` tmp.cpp
     ```
 18. [shadowsocks transmit](./haproxy.cfg)
+19. arc-theme:
+    1. install arc-theme using `install_arc.sh`
+    2. use gnome-tweak-tool to revise the color theme
+20. chrome plugin list
+    1. vimium
+    2. care your eyes
+    3. SwitchyOmega
+    4. use gtk+ theme
+
