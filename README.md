@@ -35,5 +35,5 @@ Configuration list:
     2. care your eyes: background(#282C34); font(#DBDBDB)
     3. SwitchyOmega
     4. use gtk+ theme
-21. compizconfig-settings-manager: configure the hotkey
+21. [compizconfig-settings-manager](./compizconfig.md): configure the hotkey
 
