@@ -37,4 +37,5 @@ Configuration list:
     4. use gtk+ theme
 21. [compizconfig-settings-manager](./compizconfig.md): configure the hotkey
 22. [meld dark theme](./meld.css)
+23. [cmake](./install_cmake.sh)
 
