@@ -41,4 +41,5 @@ Configuration list:
 24. [ApproxMVBB](./install_approxmvbb.sh): there is an usage [example](./ApproxMVBB) to refer to
 25. [meta](./install_meta.sh)
 26. [eigen](./install_eigen.sh)
+27. [Obj2Point](./Obj2Point): sample points from an obj file
 
