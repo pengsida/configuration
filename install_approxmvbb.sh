@@ -1,5 +1,7 @@
 #!/bin/bash
 
+./install_eigen.sh
+./install_meta.sh
 git clone https://github.com/gabyx/ApproxMVBB.git ApproxMVBB
 cd ApproxMVBB
 mkdir build
