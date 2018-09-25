@@ -38,4 +38,7 @@ Configuration list:
 21. [compizconfig-settings-manager](./compizconfig.md): configure the hotkey
 22. [meld dark theme](./meld.css)
 23. [cmake](./install_cmake.sh)
+24. [ApproxMVBB](./install_approxmvbb.sh): there is an usage [example](./ApproxMVBB) to refer to
+25. [meta](./install_meta.sh)
+26. [eigen](./install_eigen.sh)
 
