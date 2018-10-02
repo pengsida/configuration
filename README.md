@@ -42,4 +42,6 @@ Configuration list:
 25. [meta](./install_meta.sh)
 26. [eigen](./install_eigen.sh)
 27. [Obj2Point](./Obj2Point): sample points from an obj file
+28. [fzf](./install_fzf.sh)
+29. [autojump](./install_autojump.sh)
 
