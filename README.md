@@ -13,7 +13,7 @@ Configuration list:
     * [server side](./fast_server.sh)
     * [client side](./fast_client.sh)
 9. [terminal css](./gtk.css)
-10. [zshrc](./.zshrc)
+10. [zshrc](./install_zsh.sh): here is my [configuration file](./.zshrc)
 12. [git mergetool](./git_meld.sh)
 13. [gitignore](./.gitignore)
 14. a screenshot tool: scrot. Mostly used commands are like the following:
