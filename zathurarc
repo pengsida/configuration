@@ -41,8 +41,8 @@ set default-fg                  "#93a1a1" # base1
 
 # Recolor book content's color
 set recolor                     true
-set recolor-lightcolor          "#282C34" # base02
+set recolor-lightcolor          "#282A36" # base02
 set recolor-darkcolor           "#DBDBDB" # base1
 set recolor-reverse-video true
-set recolor-keephue             true      # keep original color
+# set recolor-keephue             true      # keep original color
 
