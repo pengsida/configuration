@@ -31,7 +31,7 @@ Configuration list:
     1. install arc-theme using `install_arc.sh`
     2. use gnome-tweak-tool to revise the color theme
 20. chrome plugin list
-    1. vimium
+    1. [vimium](./vimium_options.md)
     2. care your eyes: background(#282C34); font(#DBDBDB)
     3. SwitchyOmega
     4. use gtk+ theme

@@ -1,0 +1,2 @@
+map <space> enterFindMode
+
