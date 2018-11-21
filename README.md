@@ -44,4 +44,5 @@ Configuration list:
 27. [Obj2Point](./Obj2Point): sample points from an obj file
 28. [fzf](./install_fzf.sh)
 29. [autojump](./install_autojump.sh)
+30. [obj_to_ply](./obj_to_ply)
 
