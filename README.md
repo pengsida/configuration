@@ -45,4 +45,7 @@ Configuration list:
 28. [fzf](./install_fzf.sh)
 29. [autojump](./install_autojump.sh)
 30. [obj_to_ply](./obj_to_ply)
+31. [letsencrypt](./letsencrypt)
+32. [color list](./color_list)
+33. [color picker](./install_gpick.sh): gpick
 
