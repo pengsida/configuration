@@ -48,4 +48,5 @@ Configuration list:
 31. [letsencrypt](./letsencrypt)
 32. [color list](./color_list)
 33. [color picker](./install_gpick.sh): gpick
+34. [matplotlib](./matplotlib)
 
