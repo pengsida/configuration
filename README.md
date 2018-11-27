@@ -35,7 +35,7 @@ Configuration list:
     2. care your eyes: background(#282C34); font(#DBDBDB)
     3. SwitchyOmega
     4. use gtk+ theme
-21. [compizconfig-settings-manager](./compizconfig.md): configure the hotkey
+21. [hack ubuntu](./hack_ubuntu.md): compizconfig-settings-manager; short cut in setting
 22. [meld dark theme](./meld.css)
 23. [cmake](./install_cmake.sh)
 24. [ApproxMVBB](./install_approxmvbb.sh): there is an usage [example](./ApproxMVBB) to refer to
@@ -49,4 +49,7 @@ Configuration list:
 32. [color list](./color_list)
 33. [color picker](./install_gpick.sh): gpick
 34. [matplotlib](./matplotlib)
+35. [sogou pinyin](./install_sogou.sh)
+36. [latex](./latex)
+37. [Tweak ubuntu keyboard](./tweak_keyboard.md)
 
