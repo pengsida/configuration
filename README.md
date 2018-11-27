@@ -52,4 +52,5 @@ Configuration list:
 35. [sogou pinyin](./install_sogou.sh)
 36. [latex](./latex)
 37. [Tweak ubuntu keyboard](./tweak_keyboard.md)
+38. [WordPress](./install_wordpress.sh)
 
