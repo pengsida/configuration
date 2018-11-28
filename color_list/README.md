@@ -1,5 +1,11 @@
 # Color list
 
+## matplotlib
+
+Colors in matplotlib are referenced in [stackoverflow](https://stackoverflow.com/questions/22408237/named-colors-in-matplotlib)
+
+## Color category
+
 | Name          | Description  |
 | :------------ | :------------|
 | category10    | ![1f77b4](https://raw.githubusercontent.com/wiki/mbostock/d3/1f77b4.png) #1f77b4, (31, 119, 180)<br> ![ff7f0e](https://raw.githubusercontent.com/wiki/mbostock/d3/ff7f0e.png) #ff7f0e, (255, 127, 14)<br> ![2ca02c](https://raw.githubusercontent.com/wiki/mbostock/d3/2ca02c.png) #2ca02c, (46, 160, 44)<br> ![d62728](https://raw.githubusercontent.com/wiki/mbostock/d3/d62728.png) #d62728, (214, 40, 39)<br> ![9467bd](https://raw.githubusercontent.com/wiki/mbostock/d3/9467bd.png) #9467bd, (148, 103, 189)<br> ![8c564b](https://raw.githubusercontent.com/wiki/mbostock/d3/8c564b.png) #8c564b, (140, 86, 75)<br> ![e377c2](https://raw.githubusercontent.com/wiki/mbostock/d3/e377c2.png) #e377c2, (277, 119, 194)<br> ![7f7f7f](https://raw.githubusercontent.com/wiki/mbostock/d3/7f7f7f.png) #7f7f7f, (126, 126, 126)<br> ![bcbd22](https://raw.githubusercontent.com/wiki/mbostock/d3/bcbd22.png) #bcbd22, (188, 189, 32)<br> ![17becf](https://raw.githubusercontent.com/wiki/mbostock/d3/17becf.png) #17becf, (26, 190, 207)<br>|
