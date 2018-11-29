@@ -8,10 +8,10 @@ Configuration list:
 4. [zathura](./zathurarc)
 5. [tmux](./.tmux.conf)
 6. [python functions that I use frequently](./my_pyfun)
-7. [shadowsocks](./install_ss.sh)
+7. [shadowsocks](./ss/install_ss.sh)
 8. faster shadowsocks using kcptun: strongly recommend if you are under ipv6 environment
-    * [server side](./fast_server.sh)
-    * [client side](./fast_client.sh)
+    * [server side](./ss/fast_server.sh)
+    * [client side](./ss/fast_client.sh)
 9. [terminal css](./gtk.css)
 10. [zshrc](./install_zsh.sh): here is my [configuration file](./.zshrc)
 12. [git mergetool](./git_meld.sh)
@@ -26,7 +26,7 @@ Configuration list:
     ```
     g++ -std=c++11 `pkg-config --cflags opencv` `pkg-config --libs opencv` tmp.cpp
     ```
-18. [shadowsocks transmit](./haproxy.cfg)
+18. [shadowsocks transmit](./ss/haproxy.cfg)
 19. arc-theme:
     1. install arc-theme using `install_arc.sh`
     2. use gnome-tweak-tool to revise the color theme
@@ -53,5 +53,6 @@ Configuration list:
 36. [latex](./latex)
 37. [Tweak ubuntu keyboard](./tweak_keyboard.md)
 38. [WordPress](./install_wordpress.sh)
-39. [bbr](./install_bbr.sh)
+39. [bbr](./ss/install_bbr.sh)
+40. [shadowsocks server configuration](./ss/config.json): enable to listen ipv6
 
