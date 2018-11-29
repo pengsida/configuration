@@ -104,3 +104,6 @@ alias connect_sida="ssh 'pengsida@10.76.2.100'"
 export PATH="/home/pengsida/Software/anaconda3/bin:$PATH"
 alias open="nohup xdg-open . > /dev/null &"
 
+LC_CTYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+
