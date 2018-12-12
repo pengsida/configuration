@@ -35,6 +35,7 @@ Configuration list:
     2. care your eyes: background(#282C34); font(#DBDBDB)
     3. SwitchyOmega
     4. use gtk+ theme
+    5. [Highlight This](./highlight_this.md)
 21. [ubuntu shortcut](./ubuntu_shortcut.md): compizconfig-settings-manager; short cut in setting
 22. [meld dark theme](./meld.css)
 23. [cmake](./install_cmake.sh)
