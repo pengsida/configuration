@@ -56,4 +56,5 @@ Configuration list:
 38. [WordPress](./install_wordpress.sh)
 39. [bbr](./ss/install_bbr.sh)
 40. [shadowsocks server configuration](./ss/config.json): enable to listen ipv6
+41. shutter: a screenshot program
 
