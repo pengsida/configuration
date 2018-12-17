@@ -17,4 +17,8 @@ Philip H.S. Torr
 Philipp Krähenbühl
 Ross Girshick
 Josef Sivic
+Kristen Grauman
+Jiaya Jia
+Song-Chun Zhu
+Serge Belongie
 
