@@ -13,4 +13,8 @@ Philip H. S. Torr
 Xiaogang Wang
 Hongsheng Li
 Hao Su
+Philip H.S. Torr
+Philipp Krähenbühl
+Ross Girshick
+Josef Sivic
 
