@@ -22,4 +22,6 @@ Jiaya Jia
 Song-Chun Zhu
 Serge Belongie
 Andreas Geiger
+Angela Dai
+Matthias Nießner
 
