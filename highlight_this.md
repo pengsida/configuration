@@ -24,4 +24,9 @@ Serge Belongie
 Andreas Geiger
 Angela Dai
 Matthias Nießner
+Fisher Yu
+Trevor Darrell
+Jianxiong Xiao
+Vladlen Koltun
+Pascal Fua
 

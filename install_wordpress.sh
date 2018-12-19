@@ -38,3 +38,53 @@ sudo ln -s /usr/share/phpmyadmin /var/www/html
 
 # Then, install WordPress according to http://blog.topspeedsnail.com/archives/4646
 
+sudo mysql -u root -p
+# Enter password:
+# MariaDB [(none)]> CREATE DATABASE wordpress;
+# MariaDB [(none)]> GRANT ALL ON wordpress.* TO 'myword'@'localhost' IDENTIFIED BY 'test1234';
+# MariaDB [(none)]> FLUSH PRIVILEGES;
+# MariaDB [(none)]> quit
+
+echo '' | sudo tee -a /etc/apache2/apache2.conf
+echo '<Directory /var/www/html/>' | sudo tee -a /etc/apache2/apache2.conf
+echo '    AllowOverride All' | sudo tee -a /etc/apache2/apache2.conf
+echo '</Directory>' | sudo tee -a /etc/apache2/apache2.conf
+echo '' | sudo tee -a /etc/apache2/apache2.conf
+
+sudo a2enmod rewrite
+sudo apache2ctl configtest
+sudo systemctl restart apache2
+
+cd /tmp
+wget https://cn.wordpress.org/wordpress-5.0.1-zh_CN.tar.gz
+tar xzvf wordpress-5.0.1-zh_CN.tar.gz
+touch /tmp/wordpress/.htaccess
+chmod 660 /tmp/wordpress/.htaccess
+cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php
+
+sudo rm -rf /var/www/html/*
+sudo cp -a /tmp/wordpress/. /var/www/html
+sudo chown -R root:www-data /var/www/html
+sudo chmod 777 -R /var/www/html
+
+cd /var/www/html
+sed -i '/\<DB_NAME\>/s/database_name_here/wordpress/g' wp-config.php
+sed -i '/\<DB_USER\>/s/username_here/myword/g' wp-config.php
+sed -i '/\<DB_PASSWORD\>/s/password_here/test1234/g' wp-config.php
+
+echo "" | sudo tee -a wp-config.php
+echo "define('FS_METHOD', 'direct');" | sudo tee -a wp-config.php
+echo "" | sudo tee -a wp-config.php
+
+sed -i '/\<AUTH_KEY\>/s/^/\/\/ /' wp-config.php
+sed -i '/\<SECURE_AUTH_KEY\>/s/^/\/\/ /' wp-config.php
+sed -i '/\<LOGGED_IN_KEY\>/s/^/\/\/ /' wp-config.php
+sed -i '/\<NONCE_KEY\>/s/^/\/\/ /' wp-config.php
+sed -i '/\<AUTH_SALT\>/s/^/\/\/ /' wp-config.php
+sed -i '/\<SECURE_AUTH_SALT\>/s/^/\/\/ /' wp-config.php
+sed -i '/\<LOGGED_IN_SALT\>/s/^/\/\/ /' wp-config.php
+sed -i '/\<NONCE_SALT\>/s/^/\/\/ /' wp-config.php
+
+curl -s https://api.wordpress.org/secret-key/1.1/salt/ | sudo tee -a wp-config.php
+echo "" | sudo tee -a wp-config.php
+
