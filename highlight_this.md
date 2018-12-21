@@ -29,4 +29,5 @@ Trevor Darrell
 Jianxiong Xiao
 Vladlen Koltun
 Pascal Fua
+Kostas Daniilidis
 
