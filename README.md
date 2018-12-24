@@ -59,4 +59,5 @@ Configuration list:
 41. shutter: a screenshot program
 42. blender: a render software
     1. [install pip for the python of blender](./blender/install_pip.py)
+43. [Anki](./Anki)
 
