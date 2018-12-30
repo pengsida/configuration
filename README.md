@@ -60,4 +60,5 @@ Configuration list:
 42. blender: a render software
     1. [install pip for the python of blender](./blender/install_pip.py)
 43. [Anki](./Anki)
+44. [meow](./meow): Enable your computer to be a proxy server
 
