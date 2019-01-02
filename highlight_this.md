@@ -29,5 +29,19 @@ Trevor Darrell
 Jianxiong Xiao
 Vladlen Koltun
 Pascal Fua
+Xiaoou Tang
 Kostas Daniilidis
+Qixing Huang
+Jun-Yan Zhu
+Richard Zemel
+Deqing Sun
+Ming-Hsuan Yang
+Kwanghoon Sohn
+Max Welling
+Christian Theobalt
+Steven M. Seitz
+Jiajun Wu
+William T. Freeman
+Joshua B. Tenenbaum
+Silvio Savarese
 

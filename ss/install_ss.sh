@@ -19,4 +19,5 @@ echo 'export http_proxy=http://localhost:8118' | sudo tee -a  /usr/local/bin/pro
 echo 'export https_proxy=http://localhost:8118' | sudo tee -a  /usr/local/bin/proxy
 echo '$*' | sudo tee -a  /usr/local/bin/proxy
 sudo chmod 777 /usr/local/bin/proxy
+# or consider to use meow
 
