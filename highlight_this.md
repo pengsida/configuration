@@ -44,4 +44,5 @@ Jiajun Wu
 William T. Freeman
 Joshua B. Tenenbaum
 Silvio Savarese
+Leonidas J. Guibas
 
