@@ -61,4 +61,6 @@ Configuration list:
     1. [install pip for the python of blender](./blender/install_pip.py)
 43. [Anki](./Anki)
 44. [meow](./meow): Enable your computer to be a proxy server
+45. [nginx configuration file](./nginx_default)
+46. [briss](./briss): an application for cropping PDF files
 
