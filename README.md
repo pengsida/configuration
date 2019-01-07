@@ -56,7 +56,7 @@ Configuration list:
 38. [WordPress](./install_wordpress.sh)
 39. [bbr](./ss/install_bbr.sh)
 40. [shadowsocks server configuration](./ss/config.json): enable to listen ipv6
-41. shutter: a screenshot program
+41. [shutter](./install_shutter.sh): a screenshot program
 42. blender: a render software
     1. [install pip for the python of blender](./blender/install_pip.py)
 43. [Anki](./Anki)
