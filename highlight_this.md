@@ -45,4 +45,12 @@ William T. Freeman
 Joshua B. Tenenbaum
 Silvio Savarese
 Leonidas J. Guibas
+Katerina Fragkiadaki
+Haibin Huang
+Jifeng Dai
+Dahua Lin
+Li Fei-Fei
+Thomas Brox
+Stefano Soatto
+Davide Scaramuzza
 
