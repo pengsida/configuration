@@ -53,4 +53,10 @@ Li Fei-Fei
 Thomas Brox
 Stefano Soatto
 Davide Scaramuzza
+Cewu Lu
+Xiaowei Zhou
+Alexei A. Efros
+Phillip Isola
+Shih-Fu Chang
+Jianbo Shi
 
