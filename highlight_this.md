@@ -59,4 +59,19 @@ Alexei A. Efros
 Phillip Isola
 Shih-Fu Chang
 Jianbo Shi
+Noah Snavely
+Andrea Vedaldi
+Stefan Hinterstoisser
+Shaojie Shen
+Jia Li
+Chen Change Loy
+Tae-Kyun Kim
+Kai Xu
+Dacheng Tao
+Jiebo Luo
+Nassir Navab
+Kwang Moo Yi
+Philip Torr
+Jean Ponce
+Michael J. Black
 
