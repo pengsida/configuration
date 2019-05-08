@@ -28,7 +28,7 @@ class PascalObject(object):
         for i, field in enumerate(fields):
             anchor = anchors[field][0, 0]
             kps[i, 0] = anchor['status'][0, 0][0, 0]
-            if kps[i, 0] == 2:
+            if kps[i, 0] != 1:
                 continue
             kps[i, 1:] = anchor['location'][0, 0][0]
         return kps
