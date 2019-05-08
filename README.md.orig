@@ -63,7 +63,9 @@ Configuration list:
 44. [meow](./meow): Enable your computer to be a proxy server
 45. [nginx configuration file](./nginx_default)
 46. [briss](./briss): an application for cropping PDF files
+<<<<<<< HEAD
+47. [Pascal3DParser][./parse_pascal3d.py]
+=======
 47. [theme](https://draculatheme.com): Dracula
-48. [Pascal3DParser][./parse_pascal3d.py]: parse annotation files in Pascal3D
-49. [image utils](./img_utils.py)
+>>>>>>> a49bf1af803d94cbd6742b9d10393300a5edbcaf
 
