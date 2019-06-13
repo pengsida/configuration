@@ -68,4 +68,5 @@ Configuration list:
 49. [image utils](./img_utils.py)
 50. [google drive downloader](./download_gdrive.py)
 51. [Adobe software](https://xclient.info/a/442c40e1-b2f5-74da-7f0b-9611072d3d7a.html)
+52. [cuda](./install_cuda.sh)
 
