@@ -22,9 +22,9 @@
 ## Quaternion rotation
 
 1. (w, x, y, z)
-2. w = cost(theta / 2)
+2. w = cos(theta / 2)
 3. (x, y, z) = sin(theta / 2) * axis
 4. (w, x, y, z) are all scalar values, which are linear, while (axis, theta) are all radian, which are non-linear (periodic).
-5. (x, y, z) indicates a signed axis, and w indicates the length of the axis.
-
+5. (x, y, z) indicates a signed axis, and w indicates the theta.
+6. From a geometry perspective, we can interpret (x, y, z) as a sphere. When w > 0, the upper hemisphere represents a positive rotation around the axis, and the lower hemisphere represents a negative rotation around the axis.
 
