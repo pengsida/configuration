@@ -72,4 +72,5 @@ Configuration list:
 53. [markdown software](typora)
     1. [dracula theme for typora](https://github.com/oguhpereira/dracula-typora)
 54. [Set up quaternion understanding](./install_quaternion.md)
+55. [Change Ubuntu directory name to English](./ubuntu_dir_Engligh.sh)
 
