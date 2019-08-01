@@ -74,4 +74,14 @@ Kwang Moo Yi
 Philip Torr
 Jean Ponce
 Michael J. Black
+David A. Forsyth
+Andrew Zisserman
+Stephen Lin
+Yi Ma
+René Vidal
+Geoffrey Hinton
+Piotr Dollár
+Eric P. Xing
+Alan L. Yuille
+Dieter Fox
 
