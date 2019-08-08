@@ -75,4 +75,5 @@ Configuration list:
 55. [Change Ubuntu directory name to English](./ubuntu_dir_Engligh.sh)
 56. [Introduce to geometric computer vision](./install_3dv.md)
 57. [Bivariate normal and ellipse](./bivariate_normal.pdf)
+58. [Introduction to deep learning theory](https://zhuanlan.zhihu.com/p/22067439)
 
