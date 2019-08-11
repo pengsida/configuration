@@ -76,4 +76,5 @@ Configuration list:
 56. [Introduce to geometric computer vision](./install_3dv.md)
 57. [Bivariate normal and ellipse](./bivariate_normal.pdf)
 58. [Introduction to deep learning theory](https://zhuanlan.zhihu.com/p/22067439)
+59. [SVD solution for least squares problem](https://math.stackexchange.com/questions/974193/why-does-svd-provide-the-least-squares-and-least-norm-solution-to-a-x-b)
 
