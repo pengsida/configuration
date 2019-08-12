@@ -35,7 +35,6 @@ Configuration list:
     2. care your eyes: background(#282C34); font(#DBDBDB)
     3. SwitchyOmega
     4. use gtk+ theme
-    5. [Highlight This](./highlight_this.md)
 21. [ubuntu shortcut](./ubuntu_shortcut.md): compizconfig-settings-manager; short cut in setting
 22. [meld dark theme](./meld.css)
 23. [cmake](./install_cmake.sh)
@@ -77,4 +76,5 @@ Configuration list:
 57. [Bivariate normal and ellipse](./bivariate_normal.pdf)
 58. [Introduction to deep learning theory](https://zhuanlan.zhihu.com/p/22067439)
 59. [SVD solution for least squares problem](https://math.stackexchange.com/questions/974193/why-does-svd-provide-the-least-squares-and-least-norm-solution-to-a-x-b)
+60. [Computer vision experts](./expert.txt)
 
