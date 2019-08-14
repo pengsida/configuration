@@ -77,4 +77,5 @@ Configuration list:
 58. [Introduction to deep learning theory](https://zhuanlan.zhihu.com/p/22067439)
 59. [SVD solution for least squares problem](https://math.stackexchange.com/questions/974193/why-does-svd-provide-the-least-squares-and-least-norm-solution-to-a-x-b)
 60. [Computer vision experts](./expert.txt)
+61. [What we care about when we do single-view 3d understanding](./single_view_3d.md)
 
