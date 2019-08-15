@@ -78,4 +78,5 @@ Configuration list:
 59. [SVD solution for least squares problem](https://math.stackexchange.com/questions/974193/why-does-svd-provide-the-least-squares-and-least-norm-solution-to-a-x-b)
 60. [Computer vision experts](./expert.txt)
 61. [What we care about when we do single-view 3d understanding](./single_view_3d.md)
+62. [What research style we need: a good academic paper](https://arxiv.org/pdf/1705.02193.pdf)
 
