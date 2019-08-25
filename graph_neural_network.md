@@ -10,4 +10,5 @@ General graph neural network
 ## Variants of GNNs
 
 1. Graph convolutional networks, GraphSAGE: [Tutorial](http://snap.stanford.edu/proj/embeddings-www/files/nrltutorial-part2-gnns.pdf)
+2. Message aggregation functions: [ResEdgeConv, ResGIN, ResGraphSAGE, ResMRGCN](https://docs.google.com/presentation/d/1L82wWymMnHyYJk3xUKvteEWD5fX0jVRbCbI65Cxxku0/edit#slide=id.g56294d0603_0_531)
 
