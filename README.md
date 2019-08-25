@@ -72,11 +72,12 @@ Configuration list:
     1. [dracula theme for typora](https://github.com/oguhpereira/dracula-typora)
 54. [Set up quaternion understanding](./install_quaternion.md)
 55. [Change Ubuntu directory name to English](./ubuntu_dir_Engligh.sh)
-56. [Introduce to geometric computer vision](./install_3dv.md)
+56. [Introduction to geometric computer vision](./install_3dv.md)
 57. [Bivariate normal and ellipse](./bivariate_normal.pdf)
 58. [Introduction to deep learning theory](https://zhuanlan.zhihu.com/p/22067439)
 59. [SVD solution for least squares problem](https://math.stackexchange.com/questions/974193/why-does-svd-provide-the-least-squares-and-least-norm-solution-to-a-x-b)
 60. [Computer vision experts](./expert.txt)
 61. [What we care about when we do single-view 3d understanding](./single_view_3d.md)
 62. [What research style we need: a good academic paper](https://arxiv.org/pdf/1705.02193.pdf)
+63. [Introduction to graph neural network](./graph_neural_network.md)
 
