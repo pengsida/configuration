@@ -63,7 +63,7 @@ Configuration list:
 45. [nginx configuration file](./nginx_default)
 46. [briss](./briss): an application for cropping PDF files
 47. [theme](https://draculatheme.com): Dracula
-48. [Pascal3DParser][./parse_pascal3d.py]: parse annotation files in Pascal3D
+48. [Pascal3DParser](./parse_pascal3d.py): parse annotation files in Pascal3D
 49. [image utils](./img_utils.py)
 50. [google drive downloader](./download_gdrive.py)
 51. [Adobe software](https://xclient.info/a/442c40e1-b2f5-74da-7f0b-9611072d3d7a.html)
@@ -80,4 +80,5 @@ Configuration list:
 61. [What we care about when we do single-view 3d understanding](./single_view_3d.md)
 62. [What research style we need: a good academic paper](https://arxiv.org/pdf/1705.02193.pdf)
 63. [Introduction to graph neural network](./graph_neural_network.md)
+64. [A Ph.D. student memoir](http://www.pgbovine.net/PhD-memoir/pguo-PhD-grind.pdf)
 
