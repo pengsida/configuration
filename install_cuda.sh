@@ -21,6 +21,7 @@ sudo cp cudnn.h /usr/local/cuda/include/
 cd ..
 cd lib64/
 sudo cp lib* /usr/local/cuda/lib64/
+cd /usr/local/cuda/lib64
 sudo rm -rf libcudnn.so libcudnn.so.7
 sudo ln -s libcudnn.so.7.0.5 libcudnn.so.7
 sudo ln -s libcudnn.so.7 libcudnn.so
