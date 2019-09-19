@@ -82,4 +82,5 @@ Configuration list:
 63. [Introduction to graph neural network](./graph_neural_network.md)
 64. [A Ph.D. student memoir](http://www.pgbovine.net/PhD-memoir/pguo-PhD-grind.pdf)
 65. [Latex symbol list](http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf)
+66. [Install gcc of a specific version](./install_gcc.sh)
 
