@@ -81,4 +81,5 @@ Configuration list:
 62. [What research style we need: a good academic paper](https://arxiv.org/pdf/1705.02193.pdf)
 63. [Introduction to graph neural network](./graph_neural_network.md)
 64. [A Ph.D. student memoir](http://www.pgbovine.net/PhD-memoir/pguo-PhD-grind.pdf)
+65. [Latex symbol list](http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf)
 
