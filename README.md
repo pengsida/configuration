@@ -83,4 +83,5 @@ Configuration list:
 64. [A Ph.D. student memoir](http://www.pgbovine.net/PhD-memoir/pguo-PhD-grind.pdf)
 65. [Latex symbol list](http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf)
 66. [Install gcc of a specific version](./install_gcc.sh)
+67. A 3D vision book: An Invitation to 3D Vision
 
