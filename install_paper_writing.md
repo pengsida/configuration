@@ -11,3 +11,8 @@ Paper writing is a process that finetunes a shit to a delicious dinner. Don't fe
 2. Think about characters related to the core idea.
 3. Set up a flow among characters: one inducts another one.
 
+## Sentence writing
+
+1. Flow between two sentences.
+2. Read more papers and consider similar writing.
+
