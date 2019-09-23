@@ -1,4 +1,4 @@
-## Geometric computer vision
+## Computer vision
 
 1. Jia-Bin Huang’s course: https://filebox.ece.vt.edu/~jbhuang/teaching/ece5554-4554/fa18/lectures.html
 
@@ -9,4 +9,8 @@
 ## Deep learning
 
 Stanford CS231n: http://cs231n.github.io/
+
+## 3D Vision
+
+https://github.com/sunglok/3dv_tutorial
 
