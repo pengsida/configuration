@@ -14,5 +14,15 @@ Paper writing is a process that finetunes a shit to a delicious dinner. Don't fe
 ## Sentence writing
 
 1. Flow between two sentences.
-2. Read more papers and consider similar writing.
+2. Read more papers and consult similar writing.
+
+## Related work writing
+
+What we can talk about when writing related work
+
+1. Summarize a class of methods with one or two sentences.
+2. Further summarize the subclasses of methods by time.
+3. Say advantages of such methods compared with previous methods.
+4. Briefly introduce several representative methods. These methods should be at a flow that next method resolves last method's limitation. When introducing a method, we first talk about its good by saying how it resolve previous methods' limitation, and then talk about its limitation.
+5. Talk about our method's advantage over these methods.
 
