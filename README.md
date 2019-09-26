@@ -84,4 +84,5 @@ Configuration list:
 65. [Latex symbol list](http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf)
 66. [Install gcc of a specific version](./install_gcc.sh)
 67. A 3D vision book: An Invitation to 3D Vision
+68. [ftp](./install_ftp.sh)
 
