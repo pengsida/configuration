@@ -77,7 +77,10 @@ Configuration list:
 62. [What research style we need: a good academic paper](https://arxiv.org/pdf/1705.02193.pdf)
 63. [Introduction to graph neural network](./graph_neural_network.md)
 64. [A Ph.D. student memoir](http://www.pgbovine.net/PhD-memoir/pguo-PhD-grind.pdf)
-65. [Latex symbol list](http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf)
+65. Latex symbol list
+    1. A comprehensive symbol list: [list](http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf)
+    2. [Katex](https://katex.org/docs/supported.html)
+    3. [Mathematical symbols](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols)
 66. [Install gcc of a specific version](./install_gcc.sh)
 67. A 3D vision book: An Invitation to 3D Vision
 68. [ftp](./install_ftp.sh)
