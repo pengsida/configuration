@@ -84,4 +84,5 @@ Configuration list:
 66. [Install gcc of a specific version](./install_gcc.sh)
 67. A 3D vision book: An Invitation to 3D Vision
 68. [ftp](./install_ftp.sh)
+69. [How to write a good paper](./install_paper_writing.md)
 

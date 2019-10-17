@@ -16,6 +16,14 @@ Paper writing is a process that finetunes a shit to a delicious dinner. Don't fe
 1. Flow between two sentences.
 2. Read more papers and consult similar writing.
 
+For sentences in introduction
+
+1. Focus on the motivation and the benefit from our proposed approach.
+
+For sentences in method
+
+1. The approach detail is the major content. Besides, we should talk about the motivation and the benefit at a proper place.
+
 ## Related work writing
 
 What we can talk about when writing related work
