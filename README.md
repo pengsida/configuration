@@ -85,4 +85,5 @@ Configuration list:
 67. A 3D vision book: An Invitation to 3D Vision
 68. [ftp](./install_ftp.sh)
 69. [How to write a good paper](./install_paper_writing.md)
+70. [A bridge between c and python: cffi](./cffi)
 
