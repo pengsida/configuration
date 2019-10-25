@@ -86,4 +86,5 @@ Configuration list:
 68. [ftp](./install_ftp.sh)
 69. [How to write a good paper](./install_paper_writing.md)
 70. [A bridge between c and python: cffi](./cffi)
+71. [Search engine for books](https://libgen.is)
 
