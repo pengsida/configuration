@@ -31,6 +31,11 @@ What we can talk about when writing related work
 1. Summarize a class of methods with one or two sentences.
 2. Further summarize the subclasses of methods by time.
 3. Say advantages of such methods compared with previous methods.
-4. Briefly introduce several representative methods. These methods should be at a flow that next method resolves last method's limitation. When introducing a method, we first talk about its good by saying how it resolve previous methods' limitation, and then talk about its limitation.
+4. Briefly introduce several representative methods. These methods should be at a flow that next method resolves last method's limitation. When introducing a method, we first talk about its good by saying how it resolves previous methods' limitation, and then talk about its limitation.
 5. Talk about our method's advantage over these methods.
+
+## Method writing
+
+1. Overview of the proposed approach. It is a must before describing our approach in detail.
+2. It is better to describe the content of a section before detailed description.
 
