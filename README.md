@@ -87,4 +87,5 @@ Configuration list:
 69. [How to write a good paper](./install_paper_writing.md)
 70. [A bridge between c and python: cffi](./cffi)
 71. [Search engine for books](https://libgen.is)
+72. [Optimizers for the network training](https://zhuanlan.zhihu.com/p/32230623)
 
