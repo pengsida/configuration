@@ -5,6 +5,12 @@ Paper writing is a process that finetunes a shit to a delicious dinner. Don't fe
 1. Write down a clear thought flow. A clear thought flow is the most important thing in paper writing.
 2. Finetune each section.
 
+## What do we care in a paper
+
+1. Learn some interesting things about the idea in the paper.
+2. A paper should be about a single focused idea or question.
+3. All claims should be supported by experiment or by citation.
+
 ## Outline of any section or any paragraph
 
 1. Think about a core idea you want to express.
