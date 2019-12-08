@@ -88,4 +88,5 @@ Configuration list:
 70. [A bridge between c and python: cffi](./cffi)
 71. [Search engine for books](https://libgen.is)
 72. [Optimizers for the network training](https://zhuanlan.zhihu.com/p/32230623)
+73. [Install protobuf](./install_protobuf.sh)
 
