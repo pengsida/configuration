@@ -95,3 +95,8 @@ Configuration list:
     2. `mkdir mount_dir`.
     3. `sudo sshfs -o allow_other username@localhost:/ /path/to/mount_dir`.
 76. [ssh forward](https://blog.fundebug.com/2017/04/24/ssh-port-forwarding/)
+77. Install sift:
+    ```
+    pip install opencv-python==3.4.2.17
+    pip install opencv-contrib-python==3.4.2.17
+    ```
