@@ -91,9 +91,8 @@ Configuration list:
 73. [Install protobuf](./install_protobuf.sh)
 74. [onedrive](onedrive)
 75. Mount the remote device:
-    1. `ssh -L username@dest_ip`.
-    2. `mkdir mount_dir`.
-    3. `sudo sshfs -o allow_other username@localhost:/ /path/to/mount_dir`.
+    1. `mkdir mount_dir`.
+    2. `sudo sshfs -o allow_other username@dest_ip:/ /path/to/mount_dir`.
 76. [ssh forward](https://blog.fundebug.com/2017/04/24/ssh-port-forwarding/)
 77. Install sift:
     ```
