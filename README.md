@@ -99,3 +99,4 @@ Configuration list:
     pip install opencv-python==3.4.2.17
     pip install opencv-contrib-python==3.4.2.17
     ```
+78. [pip configuration](pip.conf)
