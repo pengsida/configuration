@@ -100,3 +100,4 @@ Configuration list:
     pip install opencv-contrib-python==3.4.2.17
     ```
 78. [pip configuration](pip.conf)
+79. [Visual sfm](install_vsfm.sh)
