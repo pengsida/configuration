@@ -6,7 +6,9 @@ Configuration list:
 2. [vim](https://github.com/wwtalwtaw/.vim/)
 3. [cloudcompare](./install_cc.sh)
 4. [zathura](./zathurarc)
-5. [tmux](./.tmux.conf)
+5. tmux:
+    1. [Install tmux-2.6](install_tmux.sh)
+    2. [Ubuntu tmux-2.6 configuration](.tmux.conf)
 6. [python functions that I use frequently](./my_pyfun)
 7. [shadowsocks](./ss/install_ss.sh)
 8. faster shadowsocks using kcptun: strongly recommend if you are under ipv6 environment
