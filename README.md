@@ -104,3 +104,5 @@ Configuration list:
     ```
 78. [pip configuration](pip.conf)
 79. [Visual sfm](install_vsfm.sh)
+80. [pybind](https://github.com/tdegeus/pybind11_examples): create Python bindings of existing C++ code.
+81. [opengl render](opengl)
