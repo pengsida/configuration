@@ -108,3 +108,4 @@ Configuration list:
 79. [Visual sfm](install_vsfm.sh)
 80. [pybind](https://github.com/tdegeus/pybind11_examples): create Python bindings of existing C++ code.
 81. [opengl render](opengl)
+82. [progress](https://github.com/Xfennec/progress): `watch progress` show progress for `cp`, `mv`.
