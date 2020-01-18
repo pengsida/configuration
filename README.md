@@ -109,3 +109,4 @@ Configuration list:
 80. [pybind](https://github.com/tdegeus/pybind11_examples): create Python bindings of existing C++ code.
 81. [opengl render](opengl)
 82. [progress](https://github.com/Xfennec/progress): `watch progress` show progress for `cp`, `mv`.
+83. [polygon triangulation](https://github.com/skogler/mapbox_earcut_python)
