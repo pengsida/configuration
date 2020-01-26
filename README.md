@@ -110,3 +110,6 @@ Configuration list:
 81. [opengl render](opengl)
 82. [progress](https://github.com/Xfennec/progress): `watch progress` show progress for `cp`, `mv`.
 83. [polygon triangulation](https://github.com/skogler/mapbox_earcut_python)
+84. camera calibration
+    1. theory: [method](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr98-71.pdf), [tutorial](http://ais.informatik.uni-freiburg.de/teaching/ws09/robotics2/pdfs/rob2-08-camera-calibration.pdf)
+    2. [implementation](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_calib3d/py_calibration/py_calibration.html)
