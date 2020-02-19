@@ -1,4 +1,4 @@
-1. [onedrive terminal](https://github.com/skilion/onedrive)
+1. [onedrive terminal](https://github.com/abraunegg/onedrive)
 2. [onedrive python](https://github.com/cnbeining/onedrivecmd)
 3. [onedrive php](https://github.com/donwa/oneindex)
 4. Download onedrive files using wget:
