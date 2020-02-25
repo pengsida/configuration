@@ -32,12 +32,18 @@ For sentences in method
 
 ## Introduction writing
 
+The most important thing: motivation!
+
+1. Why is this problem important.
+2. Why are previous methods not good enough.
+3. Why is our method better than previous methods.
+
+To fully illustrate our motivation, we generally organize the introduction as follows
+
 1. Problem statement.
 2. Introduce the challenge through talking about the limitations of previous works.
 3. Motivation of our approach.
 4. Motivation of our actions.
-
-The most important thing: motivation!
 
 Talk as many as motivation as possible: one sentence for one action and several sentences for motivation of this action.
 
