@@ -2,7 +2,7 @@
 	name = pengsida
 	email = pengsida@zju.edu.cn
 [credential]
-	helper = cache --timeout=86400
+	helper = cache --timeout=604800
 [https]
 	proxy = http://localhost:8118
 [http]

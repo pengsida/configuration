@@ -33,7 +33,8 @@ Configuration list:
     1. [vimium](./vimium_options.md)
     2. care your eyes: background(#282C34); font(#DBDBDB)
     3. SwitchyOmega
-    4. use gtk+ theme
+    4. use gtk+ theme: change the chrome theme
+    5. Dark reader
 21. [ubuntu shortcut](./ubuntu_shortcut.md):
     1. compizconfig-settings-manager
     2. gnome-tweak-tool
