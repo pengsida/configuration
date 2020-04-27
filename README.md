@@ -116,3 +116,4 @@ Configuration list:
     2. [implementation](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_calib3d/py_calibration/py_calibration.html)
 85. [Wudao dict](https://github.com/ChestnutHeng/Wudao-dict)
 86. [pytorch](https://download.pytorch.org/whl/torch_stable.html)
+87. [Introduction to graphics](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html)
