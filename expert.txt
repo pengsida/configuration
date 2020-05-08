@@ -84,4 +84,16 @@ Piotr Dollár
 Eric P. Xing
 Alan L. Yuille
 Dieter Fox
-
+Sanja Fidler
+Shubham Tulsiani
+Niloy J. Mitra
+Raquel Urtasun
+Ming-Ming Cheng
+Daniel Cremers
+Naiyan Wang
+Gerard Pons-Moll
+Yebin Liu
+Ping Tan
+Marc Pollefeys
+Ren Ng
+Ravi Ramamoorthi
