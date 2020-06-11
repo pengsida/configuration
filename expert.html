@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+.mainBars rect{
+  shape-rendering: auto;
+  fill-opacity: 0;
+  stroke-width: 0.5px;
+  stroke: rgb(0, 0, 0);
+  stroke-opacity: 0;
+}
+.subBars{
+	shape-rendering:crispEdges;
+}
+.edges{
+	stroke:none;
+	fill-opacity:0.5;
+}
+</style>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="viz.js"></script>
+<script>
+
+var data=[
+    ['Matthias Nienner', '3D semantic instance segmentation', 1],
+    ['Matthias Nienner', 'Reconstruction', 1],
+    ['Matthias Nienner', 'View synthesis', 1],
+
+    ['Vincent Lepetit', 'Object pose estimation', 1],
+    ['Vincent Lepetit', 'Hand pose estimation', 1],
+
+    ['Xiaogang Wang', 'Human shape estimation', 1],
+
+    ['Cewu Lu', 'Multi-object tracking', 1],
+
+    ['Qixing Huang', '3D object detection', 1],
+
+    ['Jia-bin Huang', 'Video depth estimation', 1],
+    ['Jia-bin Huang', '3D photography', 1],
+    ['Jia-bin Huang', 'Image colorization', 1],
+    ['Jia-bin Huang', 'Temporal image inpainting', 1],
+
+    ['Richard Szeliski', 'Video depth estimation', 1],
+    ['Richard Szeliski', 'View synthesis', 1],
+    ['Richard Szeliski', 'non-Lambertian reconstruction', 1],
+
+    ['Johannes Kopf', '3D photography', 1],
+    ['Johannes Kopf', '3D reconstruction', 1],
+
+    ['Andreas Geiger', '3D representation', 1],
+    ['Andreas Geiger', 'non-Lambertian reconstruction', 1],
+    ['Andreas Geiger', 'View synthesis', 1],
+    ['Andreas Geiger', 'Multi-object tracking', 1],
+    ['Andreas Geiger', '3D reconstruction', 1],
+    ['Andreas Geiger', 'Scene flow', 1],
+
+    ['Noah Snavely', 'View synthesis', 1],
+    ['Noah Snavely', 'Single image depth estimation', 1],
+    ['Noah Snavely', 'Lighting estimation', 1],
+    ['Noah Snavely', '3D reconstruction', 1],
+    ['Noah Snavely', 'Temporal reconstruction', 1],
+
+    ['Ravi Ramamoorthi', 'View synthesis', 1],
+
+    ['Ren Ng', 'View synthesis', 1],
+
+    ['Jon Barron', 'View synthesis', 1],
+    ['Jon Barron', 'Relighting', 1],
+    ['Jon Barron', 'Lighting estimation', 1],
+    ['Jon Barron', 'Single image depth estimation', 1],
+];
+
+var color = {
+    'Matthias Nienner': "#3366CC",
+    'Vincent Lepetit': "#DC3912",  
+    'Xiaogang Wang': "#FF9900", 
+    'Cewu Lu': "#109618", 
+    'Qixing Huang': "#990099", 
+    'Jia-bin Huang': "#0099C6",
+    'Richard Szeliski': '#1f77b4',
+    'Andreas Geiger': '#aec7e8',
+    'Johannes Kopf': '#ff7f0e',
+    'Noah Snavely': '#ffbb78',
+    'Ravi Ramamoorthi': '#2ca02c',
+    'Ren Ng': '#98df8a',
+    'Jon Barron': '#d62728'
+};
+
+<!-- d62728 -->
+<!-- ff9896 -->
+<!-- 9467bd -->
+<!-- c5b0d5 -->
+<!-- 8c564b -->
+<!-- c49c94 -->
+<!-- e377c2 -->
+<!-- f7b6d2 -->
+<!-- 7f7f7f -->
+<!-- c7c7c7 -->
+<!-- bcbd22 -->
+<!-- dbdb8d -->
+<!-- 17becf -->
+<!-- 9edae5 -->
+
+var svg = d3.select("body").append("svg").attr("width", 960).attr("height", 800);
+var g = svg.append("g").attr("transform","translate(200,50)");
+
+var bp=viz.bP()
+		.data(data)
+		.min(12)
+		.pad(1)
+		.height(600)
+		.width(500)
+		.barSize(35)
+		.fill(d=>color[d.primary]);
+			
+g.call(bp);
+
+g.selectAll(".mainBars")
+	.on("mouseover", mouseover)
+	.on("mouseout", mouseout)
+
+g.selectAll(".mainBars").append("text").attr("class","label")
+	.attr("x",d=>(d.part=="primary"? -30: 30))
+	.attr("y",d=>+6)
+	.text(d=>d.key)
+	.attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+	
+function mouseover(d){
+	bp.mouseover(d);
+}
+function mouseout(d){
+	bp.mouseout(d);
+}
+d3.select(self.frameElement).style("height", "800px");
+</script>
+</body>
+</html>
