@@ -23,7 +23,7 @@
 
 var data=[
     ['Matthias Nienner', '3D semantic instance segmentation', 1],
-    ['Matthias Nienner', 'Reconstruction', 1],
+    ['Matthias Nienner', '3D reconstruction', 1],
     ['Matthias Nienner', 'View synthesis', 1],
 
     ['Vincent Lepetit', 'Object pose estimation', 1],
@@ -68,6 +68,11 @@ var data=[
     ['Jon Barron', 'Relighting', 1],
     ['Jon Barron', 'Lighting estimation', 1],
     ['Jon Barron', 'Single image depth estimation', 1],
+
+    ['Qifeng Chen', 'Single image depth estimation', 1],
+
+    ['Serge Belongie', '3D object detection', 1],
+    ['Serge Belongie', 'Shape generation', 1],
 ];
 
 var color = {
@@ -83,12 +88,11 @@ var color = {
     'Noah Snavely': '#ffbb78',
     'Ravi Ramamoorthi': '#2ca02c',
     'Ren Ng': '#98df8a',
-    'Jon Barron': '#d62728'
+    'Jon Barron': '#d62728',
+    'Qifeng Chen': '#ff9896',
+    'Serge Belongie': '#9467bd'
 };
 
-<!-- d62728 -->
-<!-- ff9896 -->
-<!-- 9467bd -->
 <!-- c5b0d5 -->
 <!-- 8c564b -->
 <!-- c49c94 -->
@@ -101,14 +105,14 @@ var color = {
 <!-- 17becf -->
 <!-- 9edae5 -->
 
-var svg = d3.select("body").append("svg").attr("width", 960).attr("height", 800);
+var svg = d3.select("body").append("svg").attr("width", 960).attr("height", 1000);
 var g = svg.append("g").attr("transform","translate(200,50)");
 
 var bp=viz.bP()
 		.data(data)
 		.min(12)
 		.pad(1)
-		.height(600)
+		.height(800)
 		.width(500)
 		.barSize(35)
 		.fill(d=>color[d.primary]);
