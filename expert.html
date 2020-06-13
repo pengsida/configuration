@@ -22,18 +22,22 @@
 <script>
 
 var data=[
-    ['Matthias Nienner', '3D semantic instance segmentation', 1],
+    ['Matthias Nienner', '3D instance segmentation', 1],
     ['Matthias Nienner', '3D reconstruction', 1],
     ['Matthias Nienner', 'View synthesis', 1],
+    ['Matthias Nienner', 'Semantic segmentation', 1],
 
     ['Vincent Lepetit', 'Object pose estimation', 1],
     ['Vincent Lepetit', 'Hand pose estimation', 1],
+    ['Vincent Lepetit', 'Hand-object interaction', 1],
 
     ['Xiaogang Wang', 'Human shape estimation', 1],
 
     ['Cewu Lu', 'Multi-object tracking', 1],
 
     ['Qixing Huang', '3D object detection', 1],
+    ['Qixing Huang', 'Object pose estimation', 1],
+    ['Qixing Huang', '3D matching', 1],
 
     ['Jia-bin Huang', 'Video depth estimation', 1],
     ['Jia-bin Huang', '3D photography', 1],
@@ -53,6 +57,7 @@ var data=[
     ['Andreas Geiger', 'Multi-object tracking', 1],
     ['Andreas Geiger', '3D reconstruction', 1],
     ['Andreas Geiger', 'Scene flow', 1],
+    ['Andreas Geiger', 'Inverse rendering', 1],
 
     ['Noah Snavely', 'View synthesis', 1],
     ['Noah Snavely', 'Single image depth estimation', 1],
@@ -61,6 +66,8 @@ var data=[
     ['Noah Snavely', 'Temporal reconstruction', 1],
 
     ['Ravi Ramamoorthi', 'View synthesis', 1],
+    ['Ravi Ramamoorthi', 'Inverse rendering', 1],
+    ['Ravi Ramamoorthi', '3D reconstruction', 1],
 
     ['Ren Ng', 'View synthesis', 1],
 
@@ -73,15 +80,72 @@ var data=[
 
     ['Serge Belongie', '3D object detection', 1],
     ['Serge Belongie', 'Shape generation', 1],
+
+    ['Marc Polleyfeys', 'Descriptor learning', 1],
+    ['Marc Polleyfeys', 'Temporal reconstruction', 1],
+    ['Marc Polleyfeys', 'Camera localization', 1],
+    ['Marc Polleyfeys', 'SLAM', 1],
+    ['Marc Polleyfeys', 'Hand-object interaction', 1],
+    ['Marc Polleyfeys', '3D reconstruction', 1],
+
+    ['Luc van Gool', 'Super resolution', 1],
+    ['Luc van Gool', 'Camera localization', 1],
+
+    ['Leonidas Guibas', '3D representation', 1],
+    ['Leonidas Guibas', 'Object pose estimation', 1],
+    ['Leonidas Guibas', '3D object detection', 1],
+    ['Leonidas Guibas', '3D matching', 1],
+
+    ['Hao Su', '3D reconstruction', 1],
+    ['Hao Su', '3D representation', 1],
+
+    ['Daniel Cremers', 'SLAM', 1],
+    ['Daniel Cremers', 'Camera localization', 1],
+    ['Daniel Cremers', '3D reconstruction', 1],
+    ['Daniel Cremers', '3D matching', 1],
+
+    ['Jia Deng', 'Single image depth estimation', 1],
+
+    ['Ping Tan', '3D reconstruction', 1],
+    ['Ping Tan', 'Single image depth estimation', 1],
+
+    ['Vladlen Koltun', '3D matching', 1],
+    ['Vladlen Koltun', 'Semantic segmentation', 1],
+    ['Vladlen Koltun', 'Single image depth estimation', 1],
+
+    ['Andrea Vedaldi', '3D reconstruction', 1],
+
+    ['Pascal Fua', 'Object pose estimation', 1],
+    ['Pascal Fua', '3D human pose estimation', 1],
+    ['Pascal Fua', '3D reconstruction', 1],
+
+    ['Shubham Tulsiani', '3D reconstruction', 1],
+
+    ['Yebin Liu', '3D reconstruction', 1],
+    ['Yebin Liu', '3D human pose estimation', 1],
+
+    ['Hao Li', '3D reconstruction', 1],
+    ['Hao Li', 'Neural avatar', 1],
+
+    ['Manmohan Chandraker', 'Inverse rendering', 1],
+
+    ['Jiaya Jia', '3D instance segmentation', 1],
+    ['Jiaya Jia', 'Image generation', 1],
+
+    ['Christian Theobalt', 'Human shape estimation', 1],
+    ['Christian Theobalt', 'Hand shape estimation', 1],
+
+    ['Michael J. Black', '3D human pose estimation', 1],
+    ['Michael J. Black', 'Human shape estimation', 1],
 ];
 
 var color = {
-    'Matthias Nienner': "#3366CC",
-    'Vincent Lepetit': "#DC3912",  
-    'Xiaogang Wang': "#FF9900", 
-    'Cewu Lu': "#109618", 
-    'Qixing Huang': "#990099", 
-    'Jia-bin Huang': "#0099C6",
+    'Matthias Nienner': '#3366CC',
+    'Vincent Lepetit': '#DC3912',  
+    'Xiaogang Wang': '#FF9900', 
+    'Cewu Lu': '#109618', 
+    'Qixing Huang': '#990099', 
+    'Jia-bin Huang': '#0099C6',
     'Richard Szeliski': '#1f77b4',
     'Andreas Geiger': '#aec7e8',
     'Johannes Kopf': '#ff7f0e',
@@ -90,20 +154,25 @@ var color = {
     'Ren Ng': '#98df8a',
     'Jon Barron': '#d62728',
     'Qifeng Chen': '#ff9896',
-    'Serge Belongie': '#9467bd'
+    'Serge Belongie': '#9467bd',
+    'Marc Polleyfeys': '#c5b0d5',
+    'Luc van Gool': '#8c564b',
+    'Leonidas Guibas': '#c49c94',
+    'Hao Su': '#e377c2',
+    'Daniel Cremers': '#f7b6d2',
+    'Jia Deng': '#7f7f7f',
+    'Ping Tan': '#c7c7c7',
+    'Vladlen Koltun': '#bcbd22',
+    'Andrea Vedaldi': '#dbdb8d',
+    'Pascal Fua': '#17becf',
+    'Shubham Tulsiani': '#9edae5',
+    'Yebin Liu': '#3366CC',
+    'Hao Li': '#DC3912',
+    'Manmohan Chandraker': '#FF9900',
+    'Jiaya Jia': '#109618',
+    'Christian Theobalt': '#990099',
+    'Michael J. Black': '#0099C6'
 };
-
-<!-- c5b0d5 -->
-<!-- 8c564b -->
-<!-- c49c94 -->
-<!-- e377c2 -->
-<!-- f7b6d2 -->
-<!-- 7f7f7f -->
-<!-- c7c7c7 -->
-<!-- bcbd22 -->
-<!-- dbdb8d -->
-<!-- 17becf -->
-<!-- 9edae5 -->
 
 var svg = d3.select("body").append("svg").attr("width", 960).attr("height", 1000);
 var g = svg.append("g").attr("transform","translate(200,50)");
