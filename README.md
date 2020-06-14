@@ -120,6 +120,4 @@ Configuration list:
 87. [Introduction to graphics](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html)
 88. Light field
     * [Introduction 1](https://youtu.be/Raw-VVmaXbg?t=495)
-    * [Introduction 2](https://inst.eecs.berkeley.edu/~cs194-26/fa16/Lectures/light_fields.pdf)
-    * [Introduction 3](http://tab.computer.org/pamitc/archive/cvpr2009/raskarCVPRlightfieldIntroFinal.pdf)
-    * [Introduction 4](https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_20.pdf)
+    * [Introduction 2](https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_20.pdf)
