@@ -60,6 +60,7 @@ Configuration list:
 41. [shutter](./install_shutter.sh): a screenshot program
 42. blender: a render software
     1. [install pip for the python of blender](./blender/install_pip.py)
+    2. [Visualize the voxel](https://gist.github.com/knowuh/48136d7a17387e7cf6c3)
 43. [Anki](./Anki)
 44. [meow](./meow): Enable your computer to be a proxy server
 45. [nginx configuration file](./nginx_default)
