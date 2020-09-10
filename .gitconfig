@@ -9,3 +9,7 @@
 	proxy = http://localhost:8118
 [merge]
 	tool = meld
+[pager]
+    diff = diff-highlight | less
+    log = diff-highlight | less
+    show = diff-highlight | less

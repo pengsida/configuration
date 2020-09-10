@@ -3,6 +3,7 @@
 sudo apt-get install -y python-pip
 sudo apt-get install -y git
 sudo pip install setuptools
+sudo pip install --upgrade pip
 sudo pip install git+https://github.com/shadowsocks/shadowsocks.git@master
 
 nohup /usr/bin/python /usr/local/bin/sslocal -s x.x.x.x -p 9050 -k xxxx -m aes-256-cfb &

@@ -123,3 +123,4 @@ Configuration list:
 88. Light field
     * [Introduction 1](https://youtu.be/Raw-VVmaXbg?t=495)
     * [Introduction 2](https://sites.cs.ucsb.edu/~lingqi/teaching/resources/GAMES101_Lecture_20.pdf)
+89. [diff-highlight](https://stackoverflow.com/questions/5326008/highlight-changed-lines-and-changed-bytes-in-each-changed-line/15149253)

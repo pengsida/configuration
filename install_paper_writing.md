@@ -61,4 +61,3 @@ What we can talk about when writing related work
 
 1. Overview of the proposed approach. It is a must before describing our approach in detail.
 2. It is better to describe the content of a section before detailed description.
-
