@@ -4,7 +4,7 @@ In your terminal, run the command:
 
 python download_gdrive.py GoogleFileID /path/for/this/file/to/download/file.type
 
-Credited to 
+Credited to
 https://stackoverflow.com/questions/25010369/wget-curl-large-file-from-google-drive
 author: https://stackoverflow.com/users/1475331/user115202
 '''
@@ -17,7 +17,7 @@ import os
 def download_file_from_google_drive(id, destination):
     start = 0
     if os.path.exists(destination):
-        path = Path(destination) 
+        path = Path(destination)
         start = path.stat().st_size
 
     print('start from {}'.format(start))
@@ -43,15 +43,18 @@ def download_file_from_google_drive(id, destination):
 
     session = requests.Session()
 
+    # proxies = {'http': 'http://127.0.0.1:8118', 'https': 'http://127.0.0.1:8118'}
+    proxies = {}
+
     headers = {'Range': 'bytes={}-'.format(start)}
-    response = session.get(URL, headers=headers, params={ 'id' : id }, stream=True)
+    response = session.get(URL, headers=headers, params={ 'id' : id }, proxies=proxies, stream=True)
     token = get_confirm_token(response)
 
     if token:
         params = { 'id' : id, 'confirm' : token }
-        response = session.get(URL, headers=headers, params=params, stream=True)
+        response = session.get(URL, headers=headers, params=params, proxies=proxies, stream=True)
 
-    save_response_content(response, destination)    
+    save_response_content(response, destination)
 
 
 if __name__ == "__main__":
