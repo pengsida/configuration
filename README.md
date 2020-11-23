@@ -126,3 +126,4 @@ Configuration list:
 89. [diff-highlight](https://stackoverflow.com/questions/5326008/highlight-changed-lines-and-changed-bytes-in-each-changed-line/15149253)
 90. [How to do research](http://people.csail.mit.edu/billf/www/papers/doresearch.pdf)
 91. [Post data to the server](post_data.py)
+92. [Viewpoint control in Open3D](open3d_control_viewpoint.py)
