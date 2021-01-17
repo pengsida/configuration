@@ -102,7 +102,9 @@ Configuration list:
 75. Mount the remote device:
     1. `mkdir mount_dir`.
     2. `sudo sshfs -o allow_other username@dest_ip:/ /path/to/mount_dir`.
-76. [ssh forward](https://blog.fundebug.com/2017/04/24/ssh-port-forwarding/)
+76. [ssh forward](https://blog.fundebug.com/2017/04/24/ssh-port-forwarding/):
+    1. `ssh -L 6000:<target_host_ip>:22 <mid_host_user_name>@<mid_host_ip>`
+    2. `sshfs -p 6000 -o allow_other <target_host_user>@localhost:/path/to/target_dir /path/to/mount_dir`
 77. Install sift:
     ```
     pip install opencv-python==3.4.2.17
