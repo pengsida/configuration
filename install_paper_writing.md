@@ -11,6 +11,14 @@ Paper writing is a process that finetunes a shit to a delicious dinner. Don't fe
 2. A paper should be about a single focused idea or question.
 3. All claims should be supported by experiment or by citation.
 
+### The concrete things we need to write in the paper
+
+1. Discuss all the relevant papers.
+2. Discuss all important details: algorithm, evaluation protocol, benchmark, benchmark metric, training procedure, baselines.
+3. Ensure that the work can be reproduced from the information in the paper.
+4. Validate the claims of the paper.
+5. Discuss the limitations of the work.
+
 ## Outline of any section or any paragraph
 
 1. Think about a core idea you want to express.

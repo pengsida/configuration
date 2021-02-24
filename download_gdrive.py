@@ -43,8 +43,8 @@ def download_file_from_google_drive(id, destination):
 
     session = requests.Session()
 
-    # proxies = {'http': 'http://127.0.0.1:8118', 'https': 'http://127.0.0.1:8118'}
-    proxies = {}
+    proxies = {'http': 'http://127.0.0.1:8118', 'https': 'http://127.0.0.1:8118'}
+    # proxies = {}
 
     headers = {'Range': 'bytes={}-'.format(start)}
     response = session.get(URL, headers=headers, params={ 'id' : id }, proxies=proxies, stream=True)
