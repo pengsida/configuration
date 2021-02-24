@@ -17,7 +17,8 @@ Paper writing is a process that finetunes a shit to a delicious dinner. Don't fe
 2. Discuss all important details: algorithm, evaluation protocol, benchmark, benchmark metric, training procedure, baselines.
 3. Ensure that the work can be reproduced from the information in the paper.
 4. Validate the claims of the paper.
-5. Discuss the limitations of the work.
+5. Fair comparisons.
+6. Discuss the limitations of the work.
 
 ## Outline of any section or any paragraph
 
