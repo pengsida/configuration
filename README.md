@@ -130,3 +130,4 @@ Configuration list:
 91. [Post data to the server](post_data.py)
 92. [Viewpoint control in Open3D](open3d_control_viewpoint.py)
 93. [todo list in cli](https://github.com/aesophor/py-todo)
+93. [Online jupyter viewer](https://nbviewer.jupyter.org/)
