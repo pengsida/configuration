@@ -132,3 +132,4 @@ Configuration list:
 93. [todo list in cli](https://github.com/aesophor/py-todo)
 93. [Online jupyter viewer](https://nbviewer.jupyter.org/)
 94. [meshlab](meshlab)
+95. [Ngram viewer](https://books.google.com/ngrams)
