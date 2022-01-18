@@ -17,7 +17,7 @@ sudo ./cuda_9.0.176_384.81_linux-run --no-opengl-lib
 # step 3: install the cudnn
 tar xf cudnn-9.0-linux-x64-v7.tgz
 cd cuda/include
-sudo cp cudnn.h /usr/local/cuda/include/
+sudo cp *.h /usr/local/cuda/include/
 cd ..
 cd lib64/
 sudo cp lib* /usr/local/cuda/lib64/
