@@ -134,3 +134,4 @@ Configuration list:
 94. [meshlab](meshlab)
 95. [Ngram viewer](https://books.google.com/ngrams)
 96. [English writing](https://ludwig.guru/)
+97. [Colors for drawing](https://colorhunt.co/)
