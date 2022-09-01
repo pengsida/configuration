@@ -14,7 +14,7 @@ Xiaogang Wang
 Hongsheng Li
 Hao Su
 Philip H.S. Torr
-Philipp Krähenbühl
+Philipp KrÃ¤henbÃ¼hl
 Ross Girshick
 Josef Sivic
 Kristen Grauman
@@ -23,7 +23,7 @@ Song-Chun Zhu
 Serge Belongie
 Andreas Geiger
 Angela Dai
-Matthias Nießner
+Matthias NieÃner
 Fisher Yu
 Trevor Darrell
 Jianxiong Xiao
@@ -78,9 +78,9 @@ David A. Forsyth
 Andrew Zisserman
 Stephen Lin
 Yi Ma
-René Vidal
+RenÃ© Vidal
 Geoffrey Hinton
-Piotr Dollár
+Piotr DollÃ¡r
 Eric P. Xing
 Alan L. Yuille
 Dieter Fox
@@ -97,3 +97,39 @@ Ping Tan
 Marc Pollefeys
 Ren Ng
 Ravi Ramamoorthi
+Lingqi Yan
+Matthias Niessner
+Richard Newcombe
+Baoquan Chen
+Daniel Cohen-Or
+Ling-Qi Yan
+Mingg-Ming Cheng
+Alexei Efros
+Jian Sun
+Steve Seitz
+Adrian Hilton
+Abhinav Gupta
+Srinivasa Narasimhan
+Yaser Sheikh
+Victor Lempitsky
+Richard Szeliski
+Johannes Kopf
+Jia-Bin Huang
+Manmohan Chandraker
+Paul Debevec
+Thomas Funkhouser
+Hao Li
+Jonathan T. Barron
+Xin Tong
+Jan Kautz
+Simon Lucey
+Michael Black
+Andrew Davison
+Geoffrey E. Hinton
+Gordon Wetzstein
+Larry Davis
+Brian Curless
+Angjoo Kanazawa
+Niloy Mitra
+Xiaolong Wang
+Deepak Pathak
