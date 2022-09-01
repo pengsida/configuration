@@ -35,6 +35,7 @@ Configuration list:
     3. SwitchyOmega
     4. use gtk+ theme: change the chrome theme
     5. Dark reader
+    6. [Tweak chrome extension](./chrome_extension)
 21. [ubuntu shortcut](./ubuntu_shortcut.md):
     1. compizconfig-settings-manager
     2. gnome-tweak-tool
@@ -136,4 +137,3 @@ Configuration list:
 96. [English writing](https://ludwig.guru/)
 97. [Colors for drawing](https://colorhunt.co/)
 98. [Export notes of keynote](https://gist.github.com/chuyik/3fced01a39a2c6a191c43927ac650f32)
-99. [Tweak chrome extension](./chrome_extension)
