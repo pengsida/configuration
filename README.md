@@ -137,3 +137,4 @@ Configuration list:
 96. [English writing](https://ludwig.guru/)
 97. [Colors for drawing](https://colorhunt.co/)
 98. [Export notes of keynote](https://gist.github.com/chuyik/3fced01a39a2c6a191c43927ac650f32)
+99. [Math function visualizer](https://www.desmos.com/calculator)
