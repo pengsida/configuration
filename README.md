@@ -64,4 +64,5 @@ Configuration list:
 45. [nginx configuration file](./nginx_default)
 46. [briss](./briss): an application for cropping PDF files
 47. [theme](https://draculatheme.com): Dracula
+48. [Extract keynote script](./export_keynote.scpt)
 
