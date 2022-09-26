@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get remove cmake
-version=3.12
+version=3.13
 build=2
 mkdir ~/temp
 cd ~/temp

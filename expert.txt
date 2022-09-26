@@ -1,0 +1,135 @@
+Jitendra Malik
+Kaiming He
+Alex Kendall
+Luc Van Gool
+Angela Yao
+Vincent Lepetit
+Martial Hebert
+Alan Yuille
+Leonidas Guibas
+Jia Deng
+Richard Hartley
+Philip H. S. Torr
+Xiaogang Wang
+Hongsheng Li
+Hao Su
+Philip H.S. Torr
+Philipp KrÃ¤henbÃ¼hl
+Ross Girshick
+Josef Sivic
+Kristen Grauman
+Jiaya Jia
+Song-Chun Zhu
+Serge Belongie
+Andreas Geiger
+Angela Dai
+Matthias NieÃner
+Fisher Yu
+Trevor Darrell
+Jianxiong Xiao
+Vladlen Koltun
+Pascal Fua
+Xiaoou Tang
+Kostas Daniilidis
+Qixing Huang
+Jun-Yan Zhu
+Richard Zemel
+Deqing Sun
+Ming-Hsuan Yang
+Kwanghoon Sohn
+Max Welling
+Christian Theobalt
+Steven M. Seitz
+Jiajun Wu
+William T. Freeman
+Joshua B. Tenenbaum
+Silvio Savarese
+Leonidas J. Guibas
+Katerina Fragkiadaki
+Haibin Huang
+Jifeng Dai
+Dahua Lin
+Li Fei-Fei
+Thomas Brox
+Stefano Soatto
+Davide Scaramuzza
+Cewu Lu
+Xiaowei Zhou
+Alexei A. Efros
+Phillip Isola
+Shih-Fu Chang
+Jianbo Shi
+Noah Snavely
+Andrea Vedaldi
+Stefan Hinterstoisser
+Shaojie Shen
+Jia Li
+Chen Change Loy
+Tae-Kyun Kim
+Kai Xu
+Dacheng Tao
+Jiebo Luo
+Nassir Navab
+Kwang Moo Yi
+Philip Torr
+Jean Ponce
+Michael J. Black
+David A. Forsyth
+Andrew Zisserman
+Stephen Lin
+Yi Ma
+RenÃ© Vidal
+Geoffrey Hinton
+Piotr DollÃ¡r
+Eric P. Xing
+Alan L. Yuille
+Dieter Fox
+Sanja Fidler
+Shubham Tulsiani
+Niloy J. Mitra
+Raquel Urtasun
+Ming-Ming Cheng
+Daniel Cremers
+Naiyan Wang
+Gerard Pons-Moll
+Yebin Liu
+Ping Tan
+Marc Pollefeys
+Ren Ng
+Ravi Ramamoorthi
+Lingqi Yan
+Matthias Niessner
+Richard Newcombe
+Baoquan Chen
+Daniel Cohen-Or
+Ling-Qi Yan
+Mingg-Ming Cheng
+Alexei Efros
+Jian Sun
+Steve Seitz
+Adrian Hilton
+Abhinav Gupta
+Srinivasa Narasimhan
+Yaser Sheikh
+Victor Lempitsky
+Richard Szeliski
+Johannes Kopf
+Jia-Bin Huang
+Manmohan Chandraker
+Paul Debevec
+Thomas Funkhouser
+Hao Li
+Jonathan T. Barron
+Xin Tong
+Jan Kautz
+Simon Lucey
+Michael Black
+Andrew Davison
+Geoffrey E. Hinton
+Gordon Wetzstein
+Larry Davis
+Brian Curless
+Angjoo Kanazawa
+Niloy Mitra
+Xiaolong Wang
+Deepak Pathak

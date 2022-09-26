@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~/Downloads
-https://bootstrap.pypa.io/get-pip.py
+wget https://bootstrap.pypa.io/get-pip.py
 cd /path-to-blender/2.79/python/bin
 ./python3.5m ~/Downloads/get-pip.py
 

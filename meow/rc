@@ -4,7 +4,7 @@ listen = http://10.76.2.118:18810
 
 # 至少指定一个上级代理
 # SOCKS5 上级代理
-proxy = socks5://10.76.2.118:1080
+proxy = socks5://127.0.0.1:1080
 # HTTP 上级代理
 # proxy = http://127.0.0.1:8087
 # shadowsocks 上级代理

@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>New Tab</title>
+<link rel="stylesheet" href="newtab.css">
+<link rel="icon" href="icon.svg">
+</head>
+<body>
+<div id="main">
+</div>
+<a id="options_button" title="Options" tabindex="0"></a>
+<div id="options">
+	<a id="options_close_button" title="Close" tabindex="0">&times;</a>
+	<ul id="options_nav">
+		<li><a class="current" tabindex="0">Settings</a></li>
+		<li><a tabindex="0">Appearance</a></li>
+		<li><a tabindex="0">Import/Export</a></li>
+		<li><a tabindex="0">Advanced</a></li>
+	</ul>
+	<div class="section current">
+	<fieldset>
+		<legend>Settings</legend>
+		<label><span>Open links in</span><select id="options_newtab">
+			<option value="0">Current tab</option>
+			<option value="1">New tab</option>
+			<option value="2">New tab (background)</option>
+		</select></label>
+		<label><span>Lock columns</span><input id="options_lock" type="checkbox"/></label>
+		<label><span>Remember open folders</span><input id="options_remember_open" type="checkbox"/></label>
+		<label><span>Auto-close folders</span><input id="options_auto_close" type="checkbox"/></label>
+		<label><span>Show top-level folders</span><input id="options_show_root" type="checkbox"/></label>
+		<label><span>Hide options button</span><input id="options_hide_options" type="checkbox"/></label>
+	</fieldset>
+	<fieldset>
+		<legend>Content</legend>
+		<label><span>Apps</span><input id="options_show_apps" type="checkbox"/></label>
+		<div id="options_show_bookmarks"></div>
+		<label><span>Most visited</span><input id="options_show_top" type="checkbox"/></label>
+		<label class="subopt"><span>Number of items</span><input id="options_number_top" type="number" min="1" max="10"/></label>
+		<label><span>Recent bookmarks</span><input id="options_show_recent" type="checkbox"/></label>
+		<label class="subopt"><span>Number of items</span><input id="options_number_recent" type="number" min="1" max="1000"/></label>
+		<label><span>Recently closed</span><input id="options_show_closed" type="checkbox"/></label>
+		<label class="subopt"><span>Number of items</span><input id="options_number_closed" type="number" min="1" max="25"/></label>
+		<label><span>Other devices</span><input id="options_show_devices" type="checkbox"/></label>
+		<!-- <label><span>Weather</span><input id="options_show_weather" type="checkbox"/></label> -->
+	</fieldset>
+	<!-- <fieldset>
+		<legend>Weather</legend>
+		<label><span>Location</span><input id="options_weather_location" type="text"/></label>
+		<label><span>°C or °F</span><select id="options_weather_units">
+			<option value="c">Celsius</option>
+			<option value="f">Fahrenheit</option>
+		</select></label>
+	</fieldset> -->
+	</div><div class="section">
+	<fieldset>
+		<legend>Font</legend>
+		<label><span>Font</span><input id="options_font" type="text"/></label>
+		<label><span>Size</span><input id="options_font_size" type="number" min="6" max="100"/></label>
+	</fieldset>
+	<fieldset>
+		<legend>Colors</legend>
+		<label><span>Theme</span><select id="options_theme"></select></label>
+		<label><span>Text</span><input id="options_font_color" type="color"/></label>
+		<label><span>Background</span><input id="options_background_color" type="color"/></label>
+		<label><span>Highlight</span><input id="options_highlight_color" type="color"/></label>
+		<label><span>Highlight text</span><input id="options_highlight_font_color" type="color"/></label>
+		<label><span>Shadow</span><input id="options_shadow_color" type="color"/></label>
+	</fieldset>
+	<fieldset>
+		<legend>Layout</legend>
+		<label><span>Item spacing</span><input id="options_spacing" type="range" min="0" max="2" step="0.001"/></label>
+		<label><span>Top margin</span><input id="options_v_margin" type="range" min="0" max="2" step="0.001"/></label>
+		<label><span>Column width</span><input id="options_width" type="range" min="0" max="2" step="0.001"/></label>
+		<label><span>Align</span><input id="options_h_pos" type="range" min="0" max="2" step="0.001"/></label>
+		<label><span>Scale with window size</span><input id="options_auto_scale" type="checkbox"/></label>
+	</fieldset>
+	<fieldset>
+		<legend>Highlight</legend>
+		<label><span>Shadow size</span><input id="options_shadow_blur" type="range" min="0" max="2" step="0.001"/></label>
+		<label><span>Corner roundness</span><input id="options_highlight_round" type="range" min="0" max="2" step="0.001"/></label>
+	</fieldset>
+	<fieldset>
+		<legend>Animation</legend>
+		<label><span>Highlight fade time</span><input id="options_fade" type="range" min="0" max="2" step="0.001"/></label>
+		<label><span>Folder open time</span><input id="options_slide" type="range" min="0" max="2" step="0.001"/></label>
+	</fieldset>
+	<fieldset>
+		<legend>Background image</legend>
+		<label><span>URL</span><input id="options_background_image" type="url" placeholder="http://"/></label>
+		<label><span>Local file</span><input id="options_background_image_file" type="file" accept="image/*"/></label>
+		<label><span>Size</span><select id="options_background_size">
+			<option value="auto">Original</option>
+			<option value="cover">Full</option>
+			<option value="contain">Best fit</option>
+		</select></label>
+		<label><span>Align</span><select id="options_background_align">
+			<option value="left top">Top left</option>
+			<option value="top">Top</option>
+			<option value="right top">Top right</option>
+			<option value="left">Left</option>
+			<option value="center">Center</option>
+			<option value="right">Right</option>
+			<option value="left bottom">Bottom left</option>
+			<option value="bottom">Bottom</option>
+			<option value="right bottom">Bottom right</option>
+		</select></label>
+		<label><span>Tiling</span><select id="options_background_repeat">
+			<option value="repeat">Tile</option>
+			<option value="repeat-x">Horizontal</option>
+			<option value="repeat-y">Vertical</option>
+			<option value="no-repeat">None</option>
+		</select></label>
+	</fieldset>
+	</div><div class="section">
+	<fieldset>
+		<legend>Export Settings</legend>
+		<label><textarea id="options_export" readonly></textarea></label>
+	</fieldset>
+	<fieldset>
+		<legend>Import Settings</legend>
+		<label><textarea id="options_import"></textarea></label>
+	</fieldset>
+	</div><div class="section">
+	<fieldset>
+		<legend>Generated CSS</legend>
+		<label><textarea id="all_css" readonly></textarea></label>
+	</fieldset>
+	<fieldset>
+		<legend>Custom CSS</legend>
+		<label><textarea id="options_css"></textarea></label>
+	</fieldset>
+	</div>
+</div>
+<script src="newtab.js"></script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+.mainBars rect{
+  shape-rendering: auto;
+  fill-opacity: 0;
+  stroke-width: 0.5px;
+  stroke: rgb(0, 0, 0);
+  stroke-opacity: 0;
+}
+.subBars{
+	shape-rendering:crispEdges;
+}
+.edges{
+	stroke:none;
+	fill-opacity:0.5;
+}
+</style>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="viz.js"></script>
+<script>
+
+var data=[
+    ['Matthias Nienner', '3D instance segmentation', 1],
+    ['Matthias Nienner', '3D reconstruction', 1],
+    ['Matthias Nienner', 'View synthesis', 1],
+    ['Matthias Nienner', 'Semantic segmentation', 1],
+    ['Matthias Nienner', 'Inverse rendering', 1],
+    ['Matthias Nienner', '3D completion', 1],
+
+    ['Vincent Lepetit', 'Object pose estimation', 1],
+    ['Vincent Lepetit', 'Hand pose estimation', 1],
+    ['Vincent Lepetit', 'Hand-object interaction', 1],
+
+    ['Xiaogang Wang', 'Human shape estimation', 1],
+
+    ['Cewu Lu', 'Multi-object tracking', 1],
+
+    ['Qixing Huang', '3D object detection', 1],
+    ['Qixing Huang', 'Object pose estimation', 1],
+    ['Qixing Huang', '3D matching', 1],
+
+    ['Jia-bin Huang', 'Video depth estimation', 1],
+    ['Jia-bin Huang', '3D photography', 1],
+    ['Jia-bin Huang', 'Image colorization', 1],
+    ['Jia-bin Huang', 'Temporal image inpainting', 1],
+
+    ['Richard Szeliski', 'Video depth estimation', 1],
+    ['Richard Szeliski', 'View synthesis', 1],
+    ['Richard Szeliski', 'non-Lambertian reconstruction', 1],
+
+    ['Johannes Kopf', '3D photography', 1],
+    ['Johannes Kopf', '3D reconstruction', 1],
+
+    ['Andreas Geiger', '3D representation', 1],
+    ['Andreas Geiger', 'non-Lambertian reconstruction', 1],
+    ['Andreas Geiger', 'View synthesis', 1],
+    ['Andreas Geiger', 'Multi-object tracking', 1],
+    ['Andreas Geiger', '3D reconstruction', 1],
+    ['Andreas Geiger', 'Scene flow', 1],
+    ['Andreas Geiger', 'Inverse rendering', 1],
+
+    ['Noah Snavely', 'View synthesis', 1],
+    ['Noah Snavely', 'Single image depth estimation', 1],
+    ['Noah Snavely', 'Lighting estimation', 1],
+    ['Noah Snavely', '3D reconstruction', 1],
+    ['Noah Snavely', 'Temporal reconstruction', 1],
+
+    ['Ravi Ramamoorthi', 'View synthesis', 1],
+    ['Ravi Ramamoorthi', 'Inverse rendering', 1],
+    ['Ravi Ramamoorthi', '3D reconstruction', 1],
+
+    ['Ren Ng', 'View synthesis', 1],
+
+    ['Jon Barron', 'View synthesis', 1],
+    ['Jon Barron', 'Relighting', 1],
+    ['Jon Barron', 'Lighting estimation', 1],
+    ['Jon Barron', 'Single image depth estimation', 1],
+
+    ['Qifeng Chen', 'Single image depth estimation', 1],
+
+    ['Serge Belongie', '3D object detection', 1],
+    ['Serge Belongie', 'Shape generation', 1],
+
+    ['Marc Polleyfeys', 'Descriptor learning', 1],
+    ['Marc Polleyfeys', 'Temporal reconstruction', 1],
+    ['Marc Polleyfeys', 'Camera localization', 1],
+    ['Marc Polleyfeys', 'SLAM', 1],
+    ['Marc Polleyfeys', 'Hand-object interaction', 1],
+    ['Marc Polleyfeys', '3D reconstruction', 1],
+
+    ['Luc van Gool', 'Super resolution', 1],
+    ['Luc van Gool', 'Camera localization', 1],
+
+    ['Leonidas Guibas', '3D representation', 1],
+    ['Leonidas Guibas', 'Object pose estimation', 1],
+    ['Leonidas Guibas', '3D object detection', 1],
+    ['Leonidas Guibas', '3D matching', 1],
+
+    ['Hao Su', '3D reconstruction', 1],
+    ['Hao Su', '3D representation', 1],
+
+    ['Daniel Cremers', 'SLAM', 1],
+    ['Daniel Cremers', 'Camera localization', 1],
+    ['Daniel Cremers', '3D reconstruction', 1],
+    ['Daniel Cremers', '3D matching', 1],
+
+    ['Jia Deng', 'Single image depth estimation', 1],
+
+    ['Ping Tan', '3D reconstruction', 1],
+    ['Ping Tan', 'Single image depth estimation', 1],
+
+    ['Vladlen Koltun', '3D matching', 1],
+    ['Vladlen Koltun', 'Semantic segmentation', 1],
+    ['Vladlen Koltun', 'Single image depth estimation', 1],
+
+    ['Andrea Vedaldi', '3D reconstruction', 1],
+
+    ['Pascal Fua', 'Object pose estimation', 1],
+    ['Pascal Fua', '3D human pose estimation', 1],
+    ['Pascal Fua', '3D reconstruction', 1],
+
+    ['Shubham Tulsiani', '3D reconstruction', 1],
+
+    ['Yebin Liu', '3D reconstruction', 1],
+    ['Yebin Liu', '3D human pose estimation', 1],
+
+    ['Hao Li', '3D reconstruction', 1],
+    ['Hao Li', 'Neural avatar', 1],
+
+    ['Manmohan Chandraker', 'Inverse rendering', 1],
+
+    ['Jiaya Jia', '3D instance segmentation', 1],
+    ['Jiaya Jia', 'Image generation', 1],
+
+    ['Christian Theobalt', 'Human shape estimation', 1],
+    ['Christian Theobalt', 'Hand shape estimation', 1],
+
+    ['Michael J. Black', '3D human pose estimation', 1],
+    ['Michael J. Black', 'Human shape estimation', 1],
+];
+
+var color = {
+    'Matthias Nienner': '#3366CC',
+    'Vincent Lepetit': '#DC3912',  
+    'Xiaogang Wang': '#FF9900', 
+    'Cewu Lu': '#109618', 
+    'Qixing Huang': '#990099', 
+    'Jia-bin Huang': '#0099C6',
+    'Richard Szeliski': '#1f77b4',
+    'Andreas Geiger': '#aec7e8',
+    'Johannes Kopf': '#ff7f0e',
+    'Noah Snavely': '#ffbb78',
+    'Ravi Ramamoorthi': '#2ca02c',
+    'Ren Ng': '#98df8a',
+    'Jon Barron': '#d62728',
+    'Qifeng Chen': '#ff9896',
+    'Serge Belongie': '#9467bd',
+    'Marc Polleyfeys': '#c5b0d5',
+    'Luc van Gool': '#8c564b',
+    'Leonidas Guibas': '#c49c94',
+    'Hao Su': '#e377c2',
+    'Daniel Cremers': '#f7b6d2',
+    'Jia Deng': '#7f7f7f',
+    'Ping Tan': '#c7c7c7',
+    'Vladlen Koltun': '#bcbd22',
+    'Andrea Vedaldi': '#dbdb8d',
+    'Pascal Fua': '#17becf',
+    'Shubham Tulsiani': '#9edae5',
+    'Yebin Liu': '#3366CC',
+    'Hao Li': '#DC3912',
+    'Manmohan Chandraker': '#FF9900',
+    'Jiaya Jia': '#109618',
+    'Christian Theobalt': '#990099',
+    'Michael J. Black': '#0099C6'
+};
+
+var svg = d3.select("body").append("svg").attr("width", 960).attr("height", 1000);
+var g = svg.append("g").attr("transform","translate(200,50)");
+
+var bp=viz.bP()
+		.data(data)
+		.min(12)
+		.pad(1)
+		.height(800)
+		.width(500)
+		.barSize(35)
+		.fill(d=>color[d.primary]);
+			
+g.call(bp);
+
+g.selectAll(".mainBars")
+	.on("mouseover", mouseover)
+	.on("mouseout", mouseout)
+
+g.selectAll(".mainBars").append("text").attr("class","label")
+	.attr("x",d=>(d.part=="primary"? -30: 30))
+	.attr("y",d=>+6)
+	.text(d=>d.key)
+	.attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+	
+function mouseover(d){
+	bp.mouseover(d);
+}
+function mouseout(d){
+	bp.mouseout(d);
+}
+d3.select(self.frameElement).style("height", "800px");
+</script>
+</body>
+</html>
