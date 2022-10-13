@@ -138,3 +138,4 @@ Configuration list:
 97. [Colors for drawing](https://colorhunt.co/)
 98. [Export notes of keynote](https://gist.github.com/chuyik/3fced01a39a2c6a191c43927ac650f32)
 99. [Math function visualizer](https://www.desmos.com/calculator)
+100. [Extract keynote script](./export_keynote.scpt)
