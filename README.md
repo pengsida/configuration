@@ -42,6 +42,7 @@ Configuration list:
 22. [meld dark theme](./meld.css)
 23. [cmake](./install_cmake.sh)
     1. Set `CMAKE_PREFIX_PATH` to find `xxxConfig.cmake`. The default path locates at `/usr/lib/cmake`.
+    2. [cmake examples](https://github.com/ttroy50/cmake-examples)
 24. [ApproxMVBB](./install_approxmvbb.sh): there is an usage [example](./ApproxMVBB) to refer to
 25. [meta](./install_meta.sh)
 26. [eigen](./install_eigen.sh)
