@@ -9,4 +9,4 @@ dist/
 *.py[cod]
 *.so
 *.pth
-
+*.DS_Store
