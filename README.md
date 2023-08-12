@@ -71,7 +71,7 @@ Configuration list:
 47. [theme](https://draculatheme.com): Dracula
 48. [Pascal3DParser](./parse_pascal3d.py): parse annotation files in Pascal3D
 49. [image utils](./img_utils.py)
-50. [google drive downloader](./download_gdrive.py)
+50. [google drive](./google_drive)
 51. [Adobe software](https://www.xxmac.com/)
 52. [cuda](./install_cuda.sh)
 53. [markdown software](typora)
