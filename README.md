@@ -141,3 +141,4 @@ Configuration list:
 99. [Math function visualizer](https://www.desmos.com/calculator)
 100. [Extract keynote script](./export_keynote.scpt)
 101. [Teaching](./teaching)
+102. [PDF Compression](https://tools.pdf24.org/zh/compress-pdf )
